@@ -9,9 +9,7 @@
       <li>
         <CardsIconCard to="/docs/composants">
           <template #icon>
-            <i
-              class="ri-list-indefinite text-green-500 group-hover:text-green-700"
-            ></i>
+            <i class="fa-solid fa-code"></i>
           </template>
           Composants
         </CardsIconCard>
@@ -20,9 +18,7 @@
       <li>
         <CardsIconCard to="/docs/layouts">
           <template #icon>
-            <i
-              class="ri-layout-line text-blue-500 group-hover:text-blue-700"
-            ></i>
+            <i class="fa-solid fa-brush"></i>
           </template>
           Layouts
         </CardsIconCard>
@@ -31,7 +27,7 @@
       <li>
         <CardsIconCard to="/docs/icones">
           <template #icon>
-            <i class="ri-heart-line text-red-500 group-hover:text-red-700"></i>
+            <i class="fa-solid fa-icons"></i>
           </template>
           Icones
         </CardsIconCard>

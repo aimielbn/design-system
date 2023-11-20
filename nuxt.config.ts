@@ -5,6 +5,7 @@ export default defineNuxtConfig({
   css: [
     "remixicon/fonts/remixicon.css",
     "highlight.js/styles/night-owl.min.css",
+    "@fortawesome/fontawesome-free/css/all.css"
   ],
   tailwindcss: {
     config: {
