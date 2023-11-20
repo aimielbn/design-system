@@ -1,7 +1,7 @@
 <template>
   <footer
-    class="mt-auto flex items-center justify-center h-12 border-t border-white"
+    class="mt-auto flex items-center justify-center h-12 border-t border-pink-50 bg-pink-500"
   >
-    <div>Thibault Six - {{ new Date().getFullYear() }}</div>
+    <div>Aimie Lebon - {{ new Date().getFullYear() }}</div>
   </footer>
 </template>
