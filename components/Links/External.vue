@@ -17,9 +17,7 @@ defineProps({
       <slot />
     </span>
     <span>
-      <i
-        class="ri-external-link-line text-pink-900 group-hover:text-pink-500 transition"
-      ></i>
+      <i class="fa-solid fa-up-right-from-square"></i>
     </span>
   </NuxtLink>
 </template>

@@ -9,19 +9,17 @@ definePageMeta({
     <TitresH1> Icones </TitresH1>
 
     <TextesParagraphe>
-      Vous pouvez utilisez les icones de Remix Icon dans vos projets.
+      Vous pouvez utilisez les icones de FontAwesome Icon dans vos projets.
 
-      <LinksExternal to="https://remixicon.com/"
-        >https://remixicon.com/</LinksExternal
+      <LinksExternal to="https://fontawesome.com/"
+        >https://fontawesome.com/</LinksExternal
       >
     </TextesParagraphe>
 
     <TitresH2>Exemples</TitresH2>
 
-    <i class="ri-heart-line text-6xl text-red-500"></i>
+    <i class="fa-solid fa-heart text-6xl"></i>
 
-    <TextesCode
-      :code="`<i class=&quot;ri-heart-line text-6xl text-red-500&quot;></i>`"
-    />
+    <TextesCode :code="`<i class=&quot;fa-solid fa-heart text-6xl></i>`" />
   </Container>
 </template>

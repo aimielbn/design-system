@@ -17,7 +17,7 @@ definePageMeta({
       <li>
         <CardsIconLink to="/docs/composants/titres">
           <template #icon>
-            <i class="ri-h-1"></i>
+            <i class="fa-solid fa-text-height"></i>
           </template>
           Titres
         </CardsIconLink>
@@ -25,7 +25,7 @@ definePageMeta({
       <li>
         <CardsIconLink to="/docs/composants/textes">
           <template #icon>
-            <i class="ri-paragraph"></i>
+            <i class="fa-solid fa-pen-fancy"></i>
           </template>
           Textes
         </CardsIconLink>
@@ -33,7 +33,7 @@ definePageMeta({
       <li>
         <CardsIconLink to="/docs/composants/boutons">
           <template #icon>
-            <i class="ri-coin-line"></i>
+            <i class="fa-solid fa-toggle-on"></i>
           </template>
           Boutons
         </CardsIconLink>
@@ -41,7 +41,7 @@ definePageMeta({
       <li>
         <CardsIconLink to="/docs/composants/liens">
           <template #icon>
-            <i class="ri-link"></i>
+            <i class="fa-solid fa-hashtag"></i>
           </template>
           Liens
         </CardsIconLink>
@@ -49,7 +49,7 @@ definePageMeta({
       <li>
         <CardsIconLink to="/docs/composants/listes">
           <template #icon>
-            <i class="ri-list-ordered"></i>
+            <i class="fa-solid fa-list"></i>
           </template>
           Listes
         </CardsIconLink>
@@ -57,7 +57,7 @@ definePageMeta({
       <li>
         <CardsIconLink to="/docs/composants/navs">
           <template #icon>
-            <i class="ri-menu-line"></i>
+            <i class="fa-solid fa-bars"></i>
           </template>
           Navs
         </CardsIconLink>
@@ -65,7 +65,7 @@ definePageMeta({
       <li>
         <CardsIconLink to="/docs/composants/inputs">
           <template #icon>
-            <i class="ri-input-method-line"></i>
+            <i class="fa-solid fa-keyboard"></i>
           </template>
           Inputs
         </CardsIconLink>
@@ -73,7 +73,7 @@ definePageMeta({
       <li>
         <CardsIconLink to="/docs/composants/images">
           <template #icon>
-            <i class="ri-image-line"></i>
+            <i class="fa-solid fa-image"></i>
           </template>
           Images
         </CardsIconLink>
