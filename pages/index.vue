@@ -2,7 +2,10 @@
   <Container>
     <TitresH1> Accueil </TitresH1>
 
-    <TextesParagraphe> Bienvenue sur le site. </TextesParagraphe>
+    <TextesParagraphe>
+      Bienvenue sur le site ! Ici, vous trouverez toute la documentation de mon
+      site.
+    </TextesParagraphe>
 
     <TitresH2> Documentation </TitresH2>
     <ListsGrid>

@@ -37,5 +37,29 @@ const code = `<TextesCode code="${consoleLog}" language="js" />`;
     <TextesCode :code="consoleLog" language="js" />
 
     <TextesCode :code="code" />
+
+    <TitresH2>Gras</TitresH2>
+    <TextesParagraphe>
+      <b>Texte en gras</b>
+    </TextesParagraphe>
+    <TextesCode :code="`<b>Texte en gras</b>`" />
+
+    <TitresH2>Italique</TitresH2>
+    <TextesParagraphe>
+      <i>Texte en italique</i>
+    </TextesParagraphe>
+    <TextesCode :code="`<i>Texte en italique</i>`" />
+
+    <TitresH2>Souligné</TitresH2>
+    <TextesParagraphe>
+      <u>Texte souligné</u>
+    </TextesParagraphe>
+    <TextesCode :code="`<u>Texte souligné</u>`" />
+
+    <TitresH2>Citation</TitresH2>
+    <TextesParagraphe>
+      <q>Le style avant l'hypothermie</q>
+    </TextesParagraphe>
+    <TextesCode :code="`<q>Texte souligné</q>`" />
   </Container>
 </template>

@@ -24,6 +24,6 @@ const props = defineProps({
 
 <template>
   <pre class="">
-    <code class="hljs ring-2 ring-gray-200/75" v-html="hljs.highlight(code, { language }).value" />
+    <code class="hljs ring-2 ring-orange-200/75" v-html="hljs.highlight(code, { language }).value" />
 </pre>
 </template>
