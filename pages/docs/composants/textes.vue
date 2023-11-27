@@ -40,26 +40,26 @@ const code = `<TextesCode code="${consoleLog}" language="js" />`;
 
     <TitresH2>Gras</TitresH2>
     <TextesParagraphe>
-      <b>Texte en gras</b>
+      <TextesGras>Texte en gras</TextesGras>
     </TextesParagraphe>
-    <TextesCode :code="`<b>Texte en gras</b>`" />
+    <TextesCode :code="`<TextesGras>Texte en gras</TextesGras>`" />
 
     <TitresH2>Italique</TitresH2>
     <TextesParagraphe>
-      <i>Texte en italique</i>
+      <TextesItalique>Texte en italique</TextesItalique>
     </TextesParagraphe>
-    <TextesCode :code="`<i>Texte en italique</i>`" />
+    <TextesCode :code="`<TextesItalique>Texte en italique</TextesItalique>`" />
 
     <TitresH2>Souligné</TitresH2>
     <TextesParagraphe>
-      <u>Texte souligné</u>
+      <TextesSouligne>Texte souligné</TextesSouligne>
     </TextesParagraphe>
-    <TextesCode :code="`<u>Texte souligné</u>`" />
+    <TextesCode :code="`<TextesSouligne>Texte souligné</TextesSouligne>`" />
 
     <TitresH2>Citation</TitresH2>
     <TextesParagraphe>
-      <q>Le style avant l'hypothermie</q>
+      <TextesCitation>Le style avant l'hypothermie</TextesCitation>
     </TextesParagraphe>
-    <TextesCode :code="`<q>Texte souligné</q>`" />
+    <TextesCode :code="`<TextesCitation>Citation</TextesCitation>`" />
   </Container>
 </template>
