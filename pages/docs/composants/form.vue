@@ -15,7 +15,10 @@ definePageMeta({
 
     <TitresH2>Input number</TitresH2>
 
-    <InputsNum></InputsNum>
+    <InputsGroup class="max-w-xs">
+      <InputsLabel name="num">Numéro</InputsLabel>
+      <InputsNum></InputsNum>
+    </InputsGroup>
 
     <TextesCode code="<InputsNum></InputsNum>" />
 

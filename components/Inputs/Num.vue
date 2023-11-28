@@ -26,8 +26,8 @@ const handleChange = (event) => {
 </script>
 <template>
   <input
-    :name="name"
-    :id="name"
+    :name="num"
+    :id="num"
     :value="modelValue"
     @input="handleChange"
     type="number"
