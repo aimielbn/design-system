@@ -17,5 +17,19 @@ definePageMeta({
       <TitresH2>Aimie, 20 ans</TitresH2>
       <TextesParagraphe>Description fictive blablabla</TextesParagraphe>
     </CardsUserCard>
+
+    <CardsUserCard>
+      <Image src="/img/test.png" alt="test" />
+      <TitresH2>Aimie, 20 ans</TitresH2>
+      <TextesParagraphe>Description fictive blablabla</TextesParagraphe>
+    </CardsUserCard>
+
+    <TextesCode
+      code='<CardsUserCard>
+      <Image src="/img/test.png" alt="test" />
+      <TitresH2>Aimie, 20 ans</TitresH2>
+      <TextesParagraphe>Description fictive blablabla</TextesParagraphe>
+    </CardsUserCard>'
+    />
   </Container>
 </template>
