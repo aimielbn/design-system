@@ -41,11 +41,11 @@
 
     <ListsGrid>
       <li>
-        <CardsIconCard to="/startup/index">
+        <CardsIconCard to="/startup">
           <template #icon>
             <i class="fa-solid fa-house"></i>
           </template>
-          Accueil
+          Accueil startup
         </CardsIconCard>
       </li>
 

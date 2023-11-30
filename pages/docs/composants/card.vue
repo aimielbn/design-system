@@ -12,18 +12,19 @@ definePageMeta({
       Utilisez les cartes pour présenter des profils d'utilisateurs.
     </TextesParagraphe>
 
-    <CardsUserCard>
-      <Image src="/img/test.png" alt="test" />
-      <TitresH2>Prénom, âge</TitresH2>
-      <TextesParagraphe>Description fictive blablabla</TextesParagraphe>
-    </CardsUserCard>
+    <ListsGrid>
+      <CardsUserCard>
+        <Image src="/img/test.png" alt="test" />
+        <TitresH2>Prénom, âge</TitresH2>
+        <TextesParagraphe>Description fictive blablabla</TextesParagraphe>
+      </CardsUserCard>
 
-    <CardsUserCard>
-      <Image src="/img/test.png" alt="test" />
-      <TitresH2>Prénom, âge</TitresH2>
-      <TextesParagraphe>Description fictive blablabla</TextesParagraphe>
-    </CardsUserCard>
-
+      <CardsUserCard>
+        <Image src="/img/test.png" alt="test" />
+        <TitresH2>Prénom, âge</TitresH2>
+        <TextesParagraphe>Description fictive blablabla</TextesParagraphe>
+      </CardsUserCard>
+    </ListsGrid>
     <TextesCode
       code='<CardsUserCard>
       <Image src="/img/test.png" alt="test" />

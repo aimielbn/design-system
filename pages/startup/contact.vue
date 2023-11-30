@@ -5,6 +5,13 @@ definePageMeta({
 </script>
 
 <template>
+  <Container>
+    <TitresH1> Contact </TitresH1>
+
+    <TextesParagraphe>
+      Pour passer commande ou si vous avez des questions, contactez-nous !
+    </TextesParagraphe>
+
     <InputsForm>
       <InputsGroup class="max-w-xs">
         <InputsLabel name="form-nom">Nom</InputsLabel>
@@ -21,13 +28,14 @@ definePageMeta({
       </InputsGroup>
 
       <InputsGroup class="max-w-xs">
-        <InputsLabel name="form-description">Description</InputsLabel>
+        <InputsLabel name="form-description">Vos questions</InputsLabel>
         <InputsTextarea
           v-model="description"
           name="form-description"
-          placeholder="Votre texte ..."
+          placeholder="Entrez du texte ..."
           rows="10"
         />
       </InputsGroup>
     </InputsForm>
+  </Container>
 </template>
