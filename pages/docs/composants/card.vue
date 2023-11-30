@@ -14,13 +14,13 @@ definePageMeta({
 
     <CardsUserCard>
       <Image src="/img/test.png" alt="test" />
-      <TitresH2>Aimie, 20 ans</TitresH2>
+      <TitresH2>Prénom, âge</TitresH2>
       <TextesParagraphe>Description fictive blablabla</TextesParagraphe>
     </CardsUserCard>
 
     <CardsUserCard>
       <Image src="/img/test.png" alt="test" />
-      <TitresH2>Aimie, 20 ans</TitresH2>
+      <TitresH2>Prénom, âge</TitresH2>
       <TextesParagraphe>Description fictive blablabla</TextesParagraphe>
     </CardsUserCard>
 

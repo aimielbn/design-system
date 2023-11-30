@@ -80,18 +80,9 @@ definePageMeta({
       </li>
 
       <li>
-        <CardsIconLink to="/docs/composants/form">
-          <template #icon>
-            <i class="fa-solid fa-scroll"></i>
-          </template>
-          Formulaire
-        </CardsIconLink>
-      </li>
-
-      <li>
         <CardsIconLink to="/docs/composants/card">
           <template #icon>
-            <i class="fa-solid fa-scroll"></i>
+            <i class="fa-solid fa-user"></i>
           </template>
           Carte d'utilisateur
         </CardsIconLink>

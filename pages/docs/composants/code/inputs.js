@@ -14,6 +14,7 @@ export const textarea = `<InputsGroup class="max-w-xs">
     <InputsTextarea name="description" placeholder="Votre texte ..." rows="10" />
 </InputsGroup>`;
 
+
 export const form = `<InputsForm>
   <InputsGroup class="max-w-xs">
     <InputsLabel name="nom">Nom</InputsLabel>

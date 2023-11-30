@@ -36,5 +36,36 @@
         </CardsIconCard>
       </li>
     </ListsGrid>
+
+    <TitresH2> Ma startup </TitresH2>
+
+    <ListsGrid>
+      <li>
+        <CardsIconCard to="/startup/index">
+          <template #icon>
+            <i class="fa-solid fa-house"></i>
+          </template>
+          Accueil
+        </CardsIconCard>
+      </li>
+
+      <li>
+        <CardsIconCard to="/startup/equipe">
+          <template #icon>
+            <i class="fa-solid fa-people-group"></i>
+          </template>
+          Équipe
+        </CardsIconCard>
+      </li>
+
+      <li>
+        <CardsIconCard to="/startup/contact">
+          <template #icon>
+            <i class="fa-solid fa-address-book"></i>
+          </template>
+          Contact
+        </CardsIconCard>
+      </li>
+    </ListsGrid>
   </Container>
 </template>

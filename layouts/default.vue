@@ -13,6 +13,7 @@
         <template #links>
           <LinksNavLink to="/">Accueil</LinksNavLink>
           <LinksNavLink to="/docs">Documentation</LinksNavLink>
+          <LinksNavLink to="/startup">Startup</LinksNavLink>
         </template>
       </NavsNav>
     </template>
