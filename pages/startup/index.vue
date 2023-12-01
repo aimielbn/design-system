@@ -18,7 +18,7 @@ definePageMeta({
     <ListsGrid>
       <CardsUserCard>
         <Image src="/img/test.png" alt="test" />
-        <TitresH2>Bagues, 3€/pièce</TitresH2>
+        <TitresH2>Bagues, 3€/pièce </TitresH2>
         <TextesParagraphe
           >Bagues personnalisables en perles colorées. Fil
           élastique.</TextesParagraphe
